@@ -1,2 +1,2 @@
-# EllisBronnikov
-Supplementary files for our study of Ellis-Bronnikov wormholes's QNMs via the spectral method
+# Supplementary material for Ellis-Bronnikov wormholes quasi-normal modes
+
