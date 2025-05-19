@@ -1,15 +1,39 @@
-# Ellis-Bronnikov project
+# Ellis-Bronnikov Project
 
-## Supplementary materials for Ellis-Bronnikov wormholes quasi-normal modes computation via a spectral method
+## Supplementary Materials for Ellis-Bronnikov Wormholes Quasi-Normal Modes Computation via a Spectral Method
 
-Authors: Dr. Davide Batic (KU, UAE) and Dr. Denys Dutykh (KU, UAE)
+### Authors
+- Dr. Davide Batic (Khalifa University, UAE)
+- Dr. Denys Dutykh (Khalifa University, UAE)
 
-Numerical methods: Collocation-type spectral method based on Chebyshev polynomials coupled with a polynomial eigenvalue solver
+### Project Overview
+This repository contains the computational supplemental materials for our research on the instability analysis of massive static phantom wormholes. The work focuses on computing quasi-normal modes (QNMs) of Ellis-Bronnikov wormholes using advanced numerical methods.
 
-Programming languages: Maple (TM) and Matlab (TM)
+### Numerical Methods
+- **Primary Approach**: Collocation-type spectral method based on Chebyshev polynomials
+- **Eigenvalue Solving**: Polynomial eigenvalue solver
+- **Advantages**: High accuracy, exponential convergence for smooth solutions
 
-This repository contains the computational supplemental materials for the following scientific paper:
+### Programming Languages and Tools
+- **Maple™**: Symbolic computations and analytical derivations
+- **Matlab™**: Numerical implementations and visualizations
 
-Reference: D. Batic & D. Dutykh. *Instability Analysis of Massive Static Phantom Wormholes via the Spectral Method*. Submitted, 2024
+### Repository Contents
+- Maple worksheets for analytical derivations
+- Matlab code for numerical computations
+- Data files for results verification
+- Documentation of the implemented methods
 
-NB: Please acknowledge this work if you use these codes.
+### Citation
+If you use these codes or methods in your research, please cite our paper:
+
+Batic, D., Dutykh, D. Instability analysis of massive static phantom wormholes via the spectral method. Eur. Phys. J. C 85, 144 (2025). https://doi.org/10.1140/epjc/s10052-025-13867-x
+
+**Publication Details:**
+- Received: 25 November 2024
+- Accepted: 24 January 2025
+- Published: 05 February 2025
+- DOI: https://doi.org/10.1140/epjc/s10052-025-13867-x
+
+### License
+Please acknowledge this work if you use these codes in your research or publications.
