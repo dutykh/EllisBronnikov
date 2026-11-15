@@ -133,6 +133,33 @@ Maple 18 or later, in which the worksheets are saved; the procedures use only `L
 far too coarse for this problem. The figure of this page needs Python 3 with NumPy and Matplotlib, and is redrawn from
 `docs/figures/` by `python3 plot_readme_figure.py`.
 
+## A note on the article
+
+Three formulas of the article carry misprints. In equation (36) the last term of q_A has the wrong sign; with the
+potential (34) it reads
+
+```text
+q_A(x) = Ω² e^(−2f(x)) − (ℓ(ℓ + 1) − 3)/(1 + x²) − 3(2x − c)²/(4(1 + x²)²).
+```
+
+In equation (44) the denominator is 4(1 − y²)², not 3(1 − y²)²:
+
+```text
+L00,A(y) = − cos²(πy/2) [ 3(c² − 4) cos²(πy/2) − 6c sin(πy) + 4ℓ(ℓ + 1) ] / ( 4(1 − y²)² ),
+```
+
+which tends to −π² ℓ(ℓ + 1)/16 at both ends, the value of Table 2. In Table 2, the limit of the coefficient L20 as
+y → −1⁺ (row (2, 0)) lacks the factor e^(πc); it is
+
+```text
+(πc/8) e^(πc) [ (πc + 2) e^(πc) + 1 ].
+```
+
+The two procedures build their coefficients from the potentials (4) and (34), with the correct sign and denominator
+(the line `L00` of `matrixassembler-axial.mpl` is the corrected (44)), and evaluate them only at the interior
+collocation points, where the limits of Table 2 are not needed. The computations and the results of the article are
+therefore not affected.
+
 ## How to cite
 
 If you use this code, please cite the article:
